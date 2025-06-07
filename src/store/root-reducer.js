@@ -1,4 +1,5 @@
-import { combineReducers } from 'redux';
+import { combineReducers } from '@reduxjs/toolkit'; 
+//only change here is change the import from redux to @reduxjs/toolkit
 
 import { userReducer } from './user/user.reducer';
 import { categoriesReducer } from './categories/category.reducer';
