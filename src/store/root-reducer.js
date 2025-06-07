@@ -2,7 +2,7 @@ import { combineReducers } from '@reduxjs/toolkit';
 //only change here is change the import from redux to @reduxjs/toolkit
 
 import { userReducer } from './user/user.reducer';
-import { categoriesReducer } from './categories/category.reducer';
+import { categoriesReducer } from './categories/category.slice';
 import { cartReducer } from './cart/cart.reducer';
 
 export const rootReducer = combineReducers({
